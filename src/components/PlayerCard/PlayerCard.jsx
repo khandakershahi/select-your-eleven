@@ -20,6 +20,7 @@ const PlayerCard = ({ player, SetavailableBalance, availableBalance, purchasedPl
         setIsSelected(true);
         SetavailableBalance(availableBalance - playerPrice);
         setPurchasedPlayers([...purchasedPlayers, playerData])
+        toast("Player purchased!!")
     }
 
 
